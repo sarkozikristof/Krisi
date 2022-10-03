@@ -30,7 +30,6 @@ class Game:
         self.paddle.update()
         self.opponent.update()
         self.ball.update()
-        self.board.update()
 
 
     def draw(self):

@@ -9,8 +9,8 @@ class Ball:
         self.game = game
         self.paddle = paddle
         self.opponent = opponent
-        self.x = 0
-        self.y = 200
+        self.x = WIDTH / 2
+        self.y = HEIGHT / 2
         self.radius = 10
         self.speed_x = 3
         self.speed_y = 3
